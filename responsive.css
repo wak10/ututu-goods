@@ -1,0 +1,40 @@
+@media screen and (max-width: 896px) {
+    header{
+        display: flex;
+        width: 100%;
+    }
+
+
+    header header-wrapper header-logo{
+        margin-bottom: 24px;
+    }
+    
+    nav {
+        overflow-x: scroll;
+    }
+
+    main{
+         width: 100%;
+    }  
+
+    #goods-img{
+        width: 100%;
+        margin:auto;
+    }
+
+
+
+    
+    #main-contents{
+        flex-direction: column;
+
+    }
+
+    #goods-contents{
+        width: 100%;
+    }
+    
+    #main-contsnts goods-img{
+        width: 100%;
+    }
+}
